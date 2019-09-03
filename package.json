@@ -16,6 +16,7 @@
     "lint:rebuild:rules": "tsc ./tslint/rules/underscorePrivatesRule.ts --lib \"es6\" && tsc ./tslint/rules/uppercaseStaticReadonlyRule.ts --lib \"es6\""
   },
   "dependencies": {
+    "@hapi/joi": "^15.1.1",
     "axios": "^0.19.0",
     "azure-storage": "^2.10.2",
     "inversify": "^5.0.1",
@@ -24,6 +25,11 @@
   },
   "devDependencies": {
     "@azure/functions": "^1.0.3",
+    "@types/axios": "^0.14.0",
+    "@types/config": "0.0.34",
+    "@types/hapi__joi": "^15.0.3",
+    "@types/lodash": "^4.14.138",
+    "azure-functions-core-tools": "^2.7.1585",
     "ts-node": "^8.2.0",
     "tslint": "^5.16.0",
     "typescript": "^3.4.5"
